@@ -2,7 +2,7 @@
 
 All course code lives in the [`deep-skill-networks`](https://github.com/deep-skill-networks) GitHub organization. Each repository is small enough to clone and finish in a sitting or a week. There is deliberately no single giant repo.
 
-Repositories marked *planned* don't exist yet. Course repositories are private to enrolled learners, so they're written without links; you'll get access when you enrol.
+Repositories marked *planned* don't exist yet. Course repositories are private to enrolled learners, so they're written without links; you'll get access when you enrol. `shared-toolkit` is public: anyone can read and install it.
 
 | Repository | Purpose | Visibility | Status |
 |---|---|---|---|
@@ -18,7 +18,7 @@ Repositories marked *planned* don't exist yet. Course repositories are private t
 | `m07-drift-and-online-evals` | M07 | Learners | Planned |
 | `m08-fde-in-practice` | M08 | Learners | Planned |
 | `capstone-template` | Template your capstone repository is created from; you tag milestones `ms0`–`ms8` as you reach them | Learners | Live |
-| `shared-toolkit` | Reusable eval harness, tracing setup, Terraform modules, fault-injection library, practice fault packs, quiz exporter | Learners | Live |
+| [`shared-toolkit`](https://github.com/deep-skill-networks/shared-toolkit) | Reusable eval harness, tracing setup, Terraform modules, fault-injection library, practice fault packs, quiz exporter | Public | Live |
 
 Instructor-only repositories (solutions, graded quizzes, hidden tests and game-day scenarios) also exist and are private.
 
