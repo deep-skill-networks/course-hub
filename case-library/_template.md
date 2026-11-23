@@ -1,7 +1,8 @@
 # CASE-NNN — Short descriptive title
 
 **Area:** model | data & drift | retrieval | evaluation | agents & tools | operations | security | cost | latency
-**Silent failure?** yes / no · **Severity:** low / medium / high · **Related module:** Mxx
+**Silent failure?** yes / no · **Severity:** low / medium / high · **Difficulty tier:** T1 loud / T2 subtle / T3 silent / T4 compound
+**Related module:** Mxx · **Closest failure scenario:** FS-AREA-NN
 
 ## Context
 What the system did, roughly how big it was (users, requests per day, corpus size), and its architecture in two or three sentences.

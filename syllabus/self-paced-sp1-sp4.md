@@ -1,6 +1,6 @@
 # Fully self-paced — four stackable courses
 
-Each course stands alone, takes about 4 weeks at 6–8 hrs/week, and earns its own certificate. Complete all four for the program certificate.
+Each course stands alone, takes about 4 weeks at 7–9 hrs/week, and earns its own certificate. Complete all four for the program certificate.
 
 | Course | Modules | You will be able to… |
 |---|---|---|
@@ -9,7 +9,7 @@ Each course stands alone, takes about 4 weeks at 6–8 hrs/week, and earns its o
 | **SP3** Production AI & LLMOps | M05 + M06 | Deploy with eval-gated CI/CD; trace, secure and cost-control an AI system |
 | **SP4** Post-Production, Reliability & Failure Analysis | M07 + M08 | Detect silent degradation; run incidents; handle an FDE-style engagement |
 
-Recommended order: SP1 → SP4. If you already have strong ML experience, you can start at SP2 after the P2 self-check.
+Recommended order: SP1 → SP4. If you already have strong ML experience, you can start at SP2 after the P2 self-check. The P1 and P2 pre-work self-checks are free for every self-paced learner; SP3 assumes P1.
 
 ## How each week works
 
@@ -20,11 +20,12 @@ Recommended order: SP1 → SP4. If you already have strong ML experience, you ca
 
 ## Finishing a course
 
-Pass at least 70% on quizzes, pass every lab, and complete a final practical (one autograded lab plus one incident-replay diagnosis). See [assessments/policy.md](../assessments/policy.md).
+Pass at least 70% on quizzes, pass every lab, and complete a final practical: your **mini-capstone** (an autograded lab that builds on the course's labs) plus one incident-replay diagnosis. Everything is graded automatically; [assessments/policy.md](../assessments/policy.md) explains how.
 
 ## Staying on track
 
-Self-paced courses have much lower completion rates than cohorts. What helps:
-- Join a **monthly start date** so you have peers at the same point.
-- Block fixed time in your calendar each week.
-- Use the community channel and the monthly office hour.
+Self-paced courses have much lower completion rates than cohorts, so we build in what helps:
+- **Monthly start dates** are the default: you start with a group of peers and get a weekly schedule with soft deadlines and reminders. You can still start any time if you prefer.
+- **Study buddies** within your start group, plus the community channel.
+- A **monthly office hour** with the mentor.
+- Block fixed time in your calendar each week; the course takes 7–9 hours a week.

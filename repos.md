@@ -17,10 +17,10 @@ Repositories marked *planned* don't exist yet; they are written without links un
 | `m06-observability-guardrails` | M06 | Learners | Planned |
 | `m07-drift-and-online-evals` | M07 | Learners | Planned |
 | `m08-fde-in-practice` | M08 | Learners | Planned |
-| `capstone-template` | Template you create your own capstone repo from; milestone tags `ms0`–`ms8` | Learners | Planned |
-| `shared-toolkit` | Reusable eval harness, tracing setup, Terraform modules, fault-injection library, quiz exporter | Learners | Planned |
+| `capstone-template` | Template your capstone repository is created from; you tag milestones `ms0`–`ms8` as you reach them | Learners | Planned |
+| `shared-toolkit` | Reusable eval harness, tracing setup, Terraform modules, fault-injection library, practice fault packs, quiz exporter | Learners | Planned |
 
-Instructor-only repositories (solutions and game-day scenarios) also exist and are private.
+Instructor-only repositories (solutions, graded quizzes, hidden tests and game-day scenarios) also exist and are private.
 
 ## What's inside a module repository
 
@@ -28,23 +28,25 @@ Instructor-only repositories (solutions and game-day scenarios) also exist and a
 mNN-<slug>/
 ├── README.md          # objectives, prerequisites, time and cost estimates, video links
 ├── .devcontainer/     # one-click environment (Codespaces or local)
-├── labs/              # one folder per lab: starter code + instructions
+├── labs/              # one self-contained folder per lab: starting code + instructions
 ├── notes/             # session notes and slide outlines
 ├── handouts/          # cheat sheets and one-pagers
-├── quizzes/           # quiz items (YAML, single source of truth)
+├── practice/          # ungraded practice questions with answers
 ├── case-studies/      # incident replays: telemetry + brief
-├── tests/             # autograder (behaviour checks)
+├── replay/            # recorded traffic for generating realistic telemetry
+├── tests/             # public autograder tests (instant feedback)
 ├── config/models.yaml # provider and model in one place, with a local fallback
-└── .github/workflows/ # grading on every push + nightly "does this still run?" check
+└── .github/workflows/ # feedback on every push, including a secret scan
 ```
 
-Each lab has two tags: `labNN-start` (where you begin) and `labNN-end` (a reference point, released after the deadline for cohorts). If you get stuck, you can check out the next lab's start tag and keep going.
+Each lab folder has its own starting point, so you can start any lab even if you got stuck on the previous one. Reference solutions are released automatically after each deadline. Graded quizzes run in the learning platform, not in these repositories.
 
 ## How learner access works
 
-- **Cohort learners** are added to a GitHub team for their cohort (for example `cohort-2027-01`), which grants read access to the module repositories for the duration of the course and alumni year.
-- **Your own work** goes in your own repository: you create your capstone from `capstone-template` using GitHub's "Use this template" button, and do labs in your own copy of each module repo. Make these repositories private unless you want them in your public portfolio.
-- **Grading** runs as GitHub Actions in your repository. A green check means the autograder passed; the details are in the workflow log.
-- **Self-paced learners** get access to the repositories for the courses they've purchased.
+- **Your repositories are created for you.** When you enrol (cohort) or buy a course (self-paced), we create your own private copies inside the `deep-skill-networks` organization: one capstone repository and one lab repository per module. You get write access; there's nothing to fork or set up.
+- **You submit by pull request.** Open one pull request per lab or milestone. Put a one-line note on any significant AI assistance in the description.
+- **Feedback is instant; grading is automatic.** Public tests run on every push so you can see how you're doing. The official grade comes from a separate grader that also runs hidden tests; the result is posted as a comment on your pull request, usually within an hour, and recorded in the learning platform.
+- **What you keep.** After the course you may copy your capstone to your own account and make it public for your portfolio. Lab repositories stay private so solutions don't circulate.
+- **Cohort learners** keep read access to the module repositories through the alumni year. **Self-paced learners** keep access to the courses they've bought.
 
-We don't use GitHub Classroom, which GitHub shut down in August 2026. Templates, teams and Actions-based grading do the same job with standard GitHub features.
+We don't use GitHub Classroom, which GitHub shut down in August 2026. Templates, teams and Actions-based grading do the same job with standard GitHub features, and repository creation is automated for you.
