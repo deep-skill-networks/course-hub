@@ -1,0 +1,42 @@
+name: Lab doesn't work
+description: A lab fails to set up, run, or grade correctly
+labels: ["lab-bug"]
+body:
+  - type: input
+    id: lab
+    attributes:
+      label: Lab
+      description: Repository and lab ID
+      placeholder: m03-rag-done-right, L03.2
+    validations:
+      required: true
+  - type: dropdown
+    id: env
+    attributes:
+      label: Environment
+      options:
+        - Codespaces
+        - Local dev container
+        - Local without container
+    validations:
+      required: true
+  - type: dropdown
+    id: model
+    attributes:
+      label: Model path
+      options:
+        - Local model
+        - Paid API
+        - Not relevant
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error output or workflow log
+      description: Remove any API keys before pasting
+      render: shell

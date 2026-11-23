@@ -1,0 +1,23 @@
+name: Content error or outdated information
+description: Something in the course material is wrong, unclear or out of date
+labels: ["content"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Where is it?
+      description: File path or link, and the section heading
+      placeholder: radar/2026-Q4.md — Standards and protocols
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or suggested correction
+      description: Links to a current source help us fix it quickly

@@ -1,0 +1,28 @@
+name: Link check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 3 * * 1" # weekly, Monday 03:17 UTC, to catch external links that rot
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links in markdown
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-retries 3
+            --accept 200,206,429
+            --exclude-path .github
+            './**/*.md'
+          fail: true
