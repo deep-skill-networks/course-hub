@@ -73,3 +73,21 @@ Please be realistic about time. Both formats ask for about **7–9 hours per wee
 ## Questions and corrections
 
 Found a mistake or a broken link? [Open an issue](https://github.com/deep-skill-networks/course-hub/issues/new/choose). Corrections from learners are welcome and credited.
+
+---
+
+## About the mentor
+
+**Sanjay Negi** brings 23+ years of industry experience and helps experienced software engineers and technology leaders transition into high-value AI roles, including **AI Engineer**, **Forward Deployed Engineer** and **GenAI Architect**. He has trained more than 1,100 experienced engineers.
+
+<p align="center">
+  <img src="assets/brand/skillupwithsanjay.png" alt="SkillUp with Sanjay logo" width="60">
+</p>
+
+<p align="center"><strong>#SkillUpWithSanjay</strong></p>
+
+<p align="center">
+  <a href="https://www.sanjaynegi.in" target="_blank" rel="noopener noreferrer">Website</a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://www.linkedin.com/in/sanjay-negi-ai/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+</p>
