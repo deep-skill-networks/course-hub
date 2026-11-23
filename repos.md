@@ -2,7 +2,7 @@
 
 All course code lives in the [`deep-skill-networks`](https://github.com/deep-skill-networks) GitHub organization. Each repository is small enough to clone and finish in a sitting or a week. There is deliberately no single giant repo.
 
-Repositories marked *planned* don't exist yet; they are written without links until they do.
+Repositories marked *planned* don't exist yet. Course repositories are private to enrolled learners, so they're written without links; you'll get access when you enrol. `shared-toolkit` is public: anyone can read and install it.
 
 | Repository | Purpose | Visibility | Status |
 |---|---|---|---|
@@ -17,8 +17,8 @@ Repositories marked *planned* don't exist yet; they are written without links un
 | `m06-observability-guardrails` | M06 | Learners | Planned |
 | `m07-drift-and-online-evals` | M07 | Learners | Planned |
 | `m08-fde-in-practice` | M08 | Learners | Planned |
-| `capstone-template` | Template your capstone repository is created from; you tag milestones `ms0`–`ms8` as you reach them | Learners | Planned |
-| `shared-toolkit` | Reusable eval harness, tracing setup, Terraform modules, fault-injection library, practice fault packs, quiz exporter | Learners | Planned |
+| `capstone-template` | Template your capstone repository is created from; you tag milestones `ms0`–`ms8` as you reach them | Learners | Live |
+| [`shared-toolkit`](https://github.com/deep-skill-networks/shared-toolkit) | Reusable eval harness, tracing setup, Terraform modules, fault-injection library, practice fault packs, quiz exporter | Public | Live |
 
 Instructor-only repositories (solutions, graded quizzes, hidden tests and game-day scenarios) also exist and are private.
 
@@ -48,5 +48,7 @@ Each lab folder has its own starting point, so you can start any lab even if you
 - **Feedback is instant; grading is automatic.** Public tests run on every push so you can see how you're doing. The official grade comes from a separate grader that also runs hidden tests; the result is posted as a comment on your pull request, usually within an hour, and recorded in the learning platform.
 - **What you keep.** After the course you may copy your capstone to your own account and make it public for your portfolio. Lab repositories stay private so solutions don't circulate.
 - **Cohort learners** keep read access to the module repositories through the alumni year. **Self-paced learners** keep access to the courses they've bought.
+
+The capstone template deploys to **AWS** (Lambda + ECR, built with Terraform, region `ap-south-1`); use your own AWS account with a budget alert.
 
 We don't use GitHub Classroom, which GitHub shut down in August 2026. Templates, teams and Actions-based grading do the same job with standard GitHub features, and repository creation is automated for you.
