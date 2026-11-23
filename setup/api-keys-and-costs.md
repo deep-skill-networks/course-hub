@@ -3,7 +3,7 @@
 Every lab states its expected cost up front. Our target is **under ₹100 (about $1) per lab** on paid APIs, and **₹0** if you use the local-model path.
 
 ## Rules
-1. **Never commit a key.** Each repo has a `.env.example`; copy it to `.env`, which is git-ignored. Our CI scans for leaked secrets.
+1. **Never commit a key.** Each repo has a `.env.example`; copy it to `.env`, which is git-ignored. Every lab's grading workflow scans for leaked secrets, and push protection is turned on in course repositories.
 2. **Set a hard spending limit** in every provider console before you create a key. Set an email alert at 50% of it.
 3. **Use a separate key for the course**, so you can revoke it without affecting other work.
 4. **Prefer the local path** for exploration. Switch to a paid model only when a lab says the comparison matters.

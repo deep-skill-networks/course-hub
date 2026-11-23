@@ -17,7 +17,9 @@ We apply four questions:
 3. Does it map to a real failure mode or a real decision?
 4. Will what you learn transfer if this specific tool disappears?
 
-Three or four "yes" answers can earn Adopt or Trial. Two puts an item in Assess. Fewer, and it isn't listed.
+Three or four "yes" answers can earn Adopt or Trial. Two puts an item in Assess. New items with fewer aren't listed.
+
+**Hold** is a separate judgment: it's for things people already use, or are tempted to use, that we advise against for new work, such as deprecated protocols, retired tools or an over-complex default. A Hold item doesn't need "yes" answers to be listed.
 
 This radar reflects the program's judgment for teaching and client work. It is not a vendor ranking, and we don't accept sponsorship for placements.
 
