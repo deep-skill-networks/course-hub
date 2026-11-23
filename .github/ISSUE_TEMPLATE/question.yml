@@ -1,0 +1,10 @@
+name: Question about the program
+description: Questions about the syllabus, format, setup or prerequisites
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
