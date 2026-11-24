@@ -12,7 +12,7 @@ You do **not** need prior ML, Docker, Kubernetes or Terraform experience. The pr
 | Account | Why | Notes |
 |---|---|---|
 | GitHub | All course code, labs and autograding | You'll be added to your cohort's team in the `deep-skill-networks` org. Send us your GitHub username. |
-| One cloud provider | Deploying your capstone | The cloud is announced per cohort. Use a free tier or credits, and set a billing alert on day one. |
+| AWS | Deploying your capstone (container on Lambda, region `ap-south-1`) | Light course use usually stays within the free tier; check current free-tier terms. Set a billing alert on day one (the capstone template also creates one). |
 | At least one LLM API provider | Labs that need a frontier model | Optional for many labs, thanks to local models. See [API keys and costs](api-keys-and-costs.md). |
 
 ## Machine
@@ -28,7 +28,7 @@ You do **not** need prior ML, Docker, Kubernetes or Terraform experience. The pr
 | Docker Desktop, Podman, or Rancher Desktop | Running containers and dev containers locally |
 | Python 3.11+ and `uv` (or `pip`) | Running labs outside the container |
 | Ollama (or another local model runner) | Free local-model path for labs |
-| Terraform or OpenTofu, `kubectl` | Introduced in P1; installed inside the dev container too |
+| Terraform, `kubectl`, kind, AWS CLI | Introduced in P1; installed inside the dev container too |
 
 The dev container in each lab repository includes everything a lab needs, so local installs are a convenience, not a requirement.
 
@@ -36,5 +36,5 @@ The dev container in each lab repository includes everything a lab needs, so loc
 - [ ] GitHub username sent; invitation to the cohort team accepted
 - [ ] A lab repository opens in a dev container (locally or in Codespaces)
 - [ ] A local model answers a prompt via Ollama, **or** an API key is set up with a spending limit
-- [ ] Cloud account created with a billing alert
-- [ ] P1 and P2 self-checks passed
+- [ ] AWS account created with a billing alert
+- [ ] P1 and P2 started (the gates and `ms0` are due at the end of week 2)

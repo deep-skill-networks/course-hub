@@ -43,7 +43,7 @@ Each lab folder has its own starting point, so you can start any lab even if you
 
 ## How learner access works
 
-- **Your repositories are created for you.** When you enrol (cohort) or buy a course (self-paced), we create your own private copies inside the `deep-skill-networks` organization: one capstone repository and one lab repository per module. You get write access; there's nothing to fork or set up.
+- **Your repositories are created for you.** When you enrol (cohort) or buy a course (self-paced), we create your own private copies inside the `deep-skill-networks` organization: one for each pre-work and module repository, plus your capstone, named `<course-repo>-<cohort>-<your-github-username>`. You get write access; there's nothing to fork or set up.
 - **You submit by pull request.** Open one pull request per lab or milestone. Put a one-line note on any significant AI assistance in the description.
 - **Feedback is instant; grading is automatic.** Public tests run on every push so you can see how you're doing. The official grade comes from a separate grader that also runs hidden tests; the result is posted as a comment on your pull request, usually within an hour, and recorded in the learning platform.
 - **What you keep.** After the course you may copy your capstone to your own account and make it public for your portfolio. Lab repositories stay private so solutions don't circulate.
