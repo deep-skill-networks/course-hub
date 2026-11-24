@@ -20,7 +20,7 @@ Most AI courses stop at the demo. This one starts there. You will build a real s
 
 | | Cohort (Live + Self-paced) | Fully Self-paced |
 |---|---|---|
-| Availability | Enrolling now: [program page](https://learn.sanjaynegi.in/web/checkout/6afd228779901d1204871d43) | **Coming soon.** [Join the free community](https://learn.sanjaynegi.in/l/adff39aacd) for free bootcamps and early access |
+| Availability | Enrolling now: [program page](https://sanjaynegi.in/programs/) | **Coming soon.** [Join the free community](https://learn.sanjaynegi.in/l/adff39aacd) for free bootcamps and early access |
 | Format | 16 weeks + 2–3 weeks of pre-work | Four stackable 4-week courses (SP1–SP4) |
 | Live time | 3 hrs/week, in a batch of up to 15 | Monthly office hour |
 | Pacing | Weekly deadlines with your cohort | Monthly start dates with peers at the same point (or start any time) |
@@ -76,7 +76,7 @@ Please be realistic about time. Both formats ask for about **7–9 hours per wee
 
 ## Questions and corrections
 
-Batches, timings and fees are on the [program page](https://learn.sanjaynegi.in/web/checkout/6afd228779901d1204871d43).
+Batches, timings and fees are on the [program page](https://sanjaynegi.in/programs/).
 
 Found a mistake or a broken link? [Open an issue](https://github.com/deep-skill-networks/course-hub/issues/new/choose). Corrections from learners are welcome and credited.
 
@@ -84,7 +84,7 @@ Found a mistake or a broken link? [Open an issue](https://github.com/deep-skill-
 
 ## About the mentor
 
-**Sanjay Negi** brings 23+ years of industry experience and helps experienced software engineers and technology leaders transition into high-value AI roles, including **AI Engineer**, **Forward Deployed Engineer** and **GenAI Architect**. He has trained more than 1,100 experienced engineers.
+**Sanjay Negi** brings 22+ years of industry experience and helps experienced software engineers and technology leaders transition into high-value AI roles, including **AI Engineer**, **Forward Deployed Engineer** and **GenAI Architect**. He has trained more than 1,100 experienced engineers.
 
 <p align="center">
   <img src="assets/brand/skillupwithsanjay.png" alt="SkillUp with Sanjay logo" width="60">
@@ -93,7 +93,7 @@ Found a mistake or a broken link? [Open an issue](https://github.com/deep-skill-
 <p align="center"><strong>#SkillUpWithSanjay</strong></p>
 
 <p align="center">
-  <a href="https://learn.sanjaynegi.in/web/checkout/6afd228779901d1204871d43" target="_blank" rel="noopener noreferrer"><strong>Join the program</strong></a>
+  <a href="https://sanjaynegi.in/programs/" target="_blank" rel="noopener noreferrer"><strong>Join the program</strong></a>
   &nbsp;&middot;&nbsp;
   <a href="https://learn.sanjaynegi.in/l/adff39aacd" target="_blank" rel="noopener noreferrer">Free bootcamps</a>
   &nbsp;&middot;&nbsp;

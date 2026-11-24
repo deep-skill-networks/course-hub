@@ -1,6 +1,6 @@
 # Start here
 
-Your path through the program, step by step. It uses week numbers; your cohort's dates and session times are on the program page in Tagmango.
+Your path through the program, step by step. It uses week numbers; your batch timings are on the [program page](https://sanjaynegi.in/programs/), and your cohort's dates are in your Tagmango course.
 
 ## Where things live
 
