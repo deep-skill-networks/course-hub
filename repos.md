@@ -7,8 +7,8 @@ Repositories marked *planned* don't exist yet. Course repositories are private t
 | Repository | Purpose | Visibility | Status |
 |---|---|---|---|
 | `course-hub` (this repo) | Program overview, syllabus, setup, radar, case library | Public | Live |
-| `prework-infra-bootcamp` | P1: Docker, GitHub Actions, Terraform/OpenTofu, Kubernetes, one cloud | Learners | Planned |
-| `prework-ml-foundations` | P2: classical ML, metrics, leakage | Learners | Planned |
+| `prework-infra-bootcamp` | P1: Docker, GitHub Actions, Terraform on AWS, Kubernetes (kind); four practice labs and the P1 gate | Learners | Live |
+| `prework-ml-foundations` | P2: classical ML baselines, per-language metrics, leakage; two practice labs and the P2 gate | Learners | Live |
 | `m01-llm-internals-and-framing` | M01 labs, notes, quizzes | Learners | Planned |
 | `m02-ml-vs-genai-baselines` | M02 | Learners | Planned |
 | `m03-rag-done-right` | M03 | Learners | Planned |
