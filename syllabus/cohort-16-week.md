@@ -18,10 +18,10 @@ Live sessions are split into two 90-minute sessions where possible.
 
 | Module | Focus | Gate |
 |---|---|---|
-| P1 Infra bootcamp | Docker, GitHub Actions, Terraform/OpenTofu, Kubernetes basics, one cloud in depth | Build, push and deploy a service that passes a health check in CI |
-| P2 ML foundations | Splits, leakage, metrics, gradient boosting, embeddings as features | A classification notebook with an autograded leakage trap |
+| P1 Infra bootcamp | Docker, GitHub Actions, Terraform on AWS, Kubernetes basics (on a local kind cluster) | Write a production-grade Dockerfile and Kubernetes manifests; the grader deploys them and checks `/health` end to end |
+| P2 ML foundations | Baselines, macro and per-language metrics, word vs character features, leakage, time-based evaluation | The leakage trap: find why a "98% accurate" model fails in production, and report the honest number |
 
-Capstone milestone `ms0`: your repository created from the capstone template, CI green, infrastructure skeleton deployed.
+Capstone milestone `ms0`: your capstone repository with CI green and its skeleton deployed to AWS. The P1 and P2 gates and `ms0` are due at the end of week 2. [START-HERE.md](../START-HERE.md) shows the order.
 
 ## Weeks 1–16
 

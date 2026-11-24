@@ -53,6 +53,8 @@ Please be realistic about time. Both formats ask for about **7–9 hours per wee
 
 ## Getting started
 
+**New here? Read [START-HERE.md](START-HERE.md) first.** It walks you through the whole program in order: setup, pre-work, the weekly routine and what happens after.
+
 1. Read the [prerequisites](setup/prerequisites.md) and set up your accounts and tools.
 2. Review [API keys and costs](setup/api-keys-and-costs.md). Every lab has a low-cost or free local-model path.
 3. See the [repository map](repos.md) to understand how the course code is organised.
@@ -62,6 +64,7 @@ Please be realistic about time. Both formats ask for about **7–9 hours per wee
 
 | Path | What it holds |
 |---|---|
+| [`START-HERE.md`](START-HERE.md) | Your path through the program, step by step |
 | [`syllabus/`](syllabus/) | Week-by-week plans for both formats |
 | [`setup/`](setup/) | Prerequisites, accounts, budgets |
 | [`repos.md`](repos.md) | Map of every course repository and how access works |
