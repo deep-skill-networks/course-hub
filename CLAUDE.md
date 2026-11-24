@@ -20,5 +20,5 @@ This file tells Claude how to work in this repository and its sibling course rep
 - Sentence-case headings. Short paragraphs. Tables where readers will compare.
 - British/Indian English spelling is fine; be consistent within a file.
 - Every new markdown file must be linked from somewhere (README, a folder README, or `repos.md`).
-- Every repo's README ends with the standard "About the mentor" footer from this repo's README. Other repos reference the logo by its absolute URL in this public repo rather than copying it.
+- Every repo's README ends with the standard "About the mentor" footer from this repo's README. Other repos reference the logo by its absolute URL in this public repo rather than copying it. Public repos (`course-hub`, `shared-toolkit`) include the "Free bootcamps" link to the free community; private learner repos may omit it.
 - No pricing or fees anywhere in GitHub; they live in the enrolment platform. No cohort dates either: repos use week numbers (week 1–16) so they can be reused by every cohort; dates live in each cohort's calendar.
