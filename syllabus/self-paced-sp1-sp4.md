@@ -1,5 +1,7 @@
 # Fully self-paced — four stackable courses
 
+> **Coming soon.** [Join the free community](https://learn.sanjaynegi.in/l/adff39aacd) for free bootcamps and early access when it opens.
+
 Each course stands alone, takes about 4 weeks at 7–9 hrs/week, and earns its own certificate. Complete all four for the program certificate.
 
 | Course | Modules | You will be able to… |
@@ -28,4 +30,5 @@ Self-paced courses have much lower completion rates than cohorts, so we build in
 - **Monthly start dates** are the default: you start with a group of peers and get a weekly schedule with soft deadlines and reminders. You can still start any time if you prefer.
 - **Study buddies** within your start group, plus the community channel.
 - A **monthly office hour** with the mentor.
+- **Finish all four courses and you unlock the 12-month alumni year**: fortnightly sessions with architecture reviews, incident teardowns and radar briefings (also available as an upgrade).
 - Block fixed time in your calendar each week; the course takes 7–9 hours a week.

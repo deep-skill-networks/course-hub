@@ -52,6 +52,8 @@ A **game day** on your own deployed system, then your **capstone defense**: a re
 The **alumni year**: fortnightly sessions for 12 months covering architecture reviews, incident teardowns, radar briefings and demos. You may copy your capstone to your own GitHub account and make it public for your portfolio.
 
 ## Self-paced (SP1–SP4) instead of the cohort?
+**Coming soon.** Until it opens, [join the free community](https://learn.sanjaynegi.in/l/adff39aacd) for free bootcamps and early access.
+
 Same repositories, your own pace. Follow the [self-paced syllabus](syllabus/self-paced-sp1-sp4.md): join a monthly start group on Tagmango, then work through the course's weeks in order. Each week has videos, a lab, incident replays, a quiz and a mini-capstone task. The P1 and P2 pre-work self-checks are free.
 
 ## Keep handy

@@ -20,13 +20,14 @@ Most AI courses stop at the demo. This one starts there. You will build a real s
 
 | | Cohort (Live + Self-paced) | Fully Self-paced |
 |---|---|---|
+| Availability | Enrolling now: [program page](https://learn.sanjaynegi.in/web/checkout/6afd228779901d1204871d43) | **Coming soon.** [Join the free community](https://learn.sanjaynegi.in/l/adff39aacd) for free bootcamps and early access |
 | Format | 16 weeks + 2–3 weeks of pre-work | Four stackable 4-week courses (SP1–SP4) |
-| Live time | 3 hrs/week with a cohort of 15–25 | Monthly office hour |
+| Live time | 3 hrs/week, in a batch of up to 15 | Monthly office hour |
 | Pacing | Weekly deadlines with your cohort | Monthly start dates with peers at the same point (or start any time) |
 | Self-paced work | 4–6 hrs/week | ~7–9 hrs/week |
 | Capstone | One system built across all modules, defended at the end | A mini-capstone per course, which is also your final practical |
 | Failure training | Live failure clinics + game days on your own system | Break-fix labs + incident replays |
-| After the course | 12 months of fortnightly alumni sessions | Community channel |
+| After the course | 12 months of fortnightly alumni sessions | Community channel. The 12-month alumni year unlocks when you complete all four courses, or as an upgrade |
 | Details | [syllabus/cohort-16-week.md](syllabus/cohort-16-week.md) | [syllabus/self-paced-sp1-sp4.md](syllabus/self-paced-sp1-sp4.md) |
 
 Please be realistic about time. Both formats ask for about **7–9 hours per week** in total. Learners who plan for that finish; learners who plan for 3 usually don't.
@@ -93,6 +94,8 @@ Found a mistake or a broken link? [Open an issue](https://github.com/deep-skill-
 
 <p align="center">
   <a href="https://learn.sanjaynegi.in/web/checkout/6afd228779901d1204871d43" target="_blank" rel="noopener noreferrer"><strong>Join the program</strong></a>
+  &nbsp;&middot;&nbsp;
+  <a href="https://learn.sanjaynegi.in/l/adff39aacd" target="_blank" rel="noopener noreferrer">Free bootcamps</a>
   &nbsp;&middot;&nbsp;
   <a href="https://www.sanjaynegi.in" target="_blank" rel="noopener noreferrer">Website</a>
   &nbsp;&middot;&nbsp;
